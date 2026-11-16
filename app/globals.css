@@ -1,26 +1,100 @@
 @import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme {
+  --color-cream: #f9f4ee;
+  --color-sage: #c2d6c8;
+  --color-lime: #c3db5f;
+  --color-teal: #3c756f;
+  --color-pine: #00292d;
+
+  --radius-organic: 40px 10px 40px 10px;
+  --radius-organic-reverse: 10px 40px 10px 40px;
+
+  --font-sans: var(--font-inter), var(--font-cairo), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-cairo: var(--font-cairo), sans-serif;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f9f4ee;
+  --foreground: #00292d;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), var(--font-cairo), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar matching brand palette */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f9f4ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2d6c8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3c756f;
+}
+
+/* Brand Organic Shapes */
+.rounded-organic {
+  border-radius: 40px 10px 40px 10px;
+}
+
+.rounded-organic-reverse {
+  border-radius: 10px 40px 10px 40px;
+}
+
+/* ARDY-AI Refined Button Classes */
+.btn-primary {
+  background-color: #00292d;
+  color: #f9f4ee;
+  border-radius: 14px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-primary:hover {
+  background-color: #3c756f;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #00292d;
+  border: 1px solid rgba(0, 41, 45, 0.25);
+  border-radius: 14px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-secondary:hover {
+  background-color: #00292d;
+  color: #f9f4ee;
+  border-color: #00292d;
+  transform: translateY(-1px);
+}
+
+.btn-organic {
+  background-color: #00292d;
+  color: #f9f4ee;
+  border-radius: 40px 10px 40px 10px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-organic:hover {
+  background-color: #3c756f;
+  transform: translateY(-1px);
+}
+
+::selection {
+  background-color: #c3db5f;
+  color: #00292d;
 }
