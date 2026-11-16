@@ -68,7 +68,7 @@ export default function Footer({ lang }: FooterProps) {
             <br />
             Dept. of Electrical Communications & Electronics
             <br />
-            Supervised by Prof. Dr. Mohamed NourElDin
+            Supervised by Prof. Dr. Mohamed NourElDin shaaban
             <br />
             Graduation Project Class of 2026
           </p>
@@ -98,7 +98,9 @@ export default function Footer({ lang }: FooterProps) {
       <div className="max-w-[1600px] mx-auto px-6 sm:px-12 lg:px-16 pb-10 border-t border-teal/15 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-pine/60">
         <div className="flex flex-col sm:flex-row items-center gap-4">
           <span className="font-sans font-semibold text-teal">
-            {isAr ? "أرضي (ARDY-AI) — الزراعة الدقيقة بالموجات الميكروية" : "ARDY-AI — Precision Agriculture Powered by Microwave Radar"}
+            {isAr
+              ? "أرضي (ARDY-AI) — الزراعة الدقيقة بالموجات الميكروية"
+              : "ARDY-AI — Precision Agriculture Powered by Microwave Radar"}
           </span>
           <span className="hidden sm:inline text-pine/30">|</span>
           <span className="font-mono text-[11px] text-pine/50">
@@ -107,7 +109,8 @@ export default function Footer({ lang }: FooterProps) {
         </div>
 
         <p className="font-mono text-[11px]">
-          © 2026 ARDY-AI (أرضي) • Al-Azhar University ECE • Copernicus Open Data (ESA).
+          © 2026 ARDY-AI (أرضي) • Al-Azhar University ECE • Copernicus Open Data
+          (ESA).
         </p>
       </div>
     </footer>

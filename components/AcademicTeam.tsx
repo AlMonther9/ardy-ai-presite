@@ -18,8 +18,10 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       roleEn: "Product Designer & Software Engineer",
       roleAr: "مهندس برمجيات وتصميم منتجات",
       discipline: "System Architecture & 3D WebGL",
-      descEn: "Frontend UI/UX, interactive 3D WebGL diorama, platform system architecture, and API integration.",
-      descAr: "تطوير واجهة المستخدم وبناء لوحة التحكم التفاعلية ثلاثية الأبعاد وتصميم هيكلة المنصة السحابية.",
+      descEn:
+        "Frontend UI/UX, interactive 3D WebGL diorama, platform system architecture, and API integration.",
+      descAr:
+        "تطوير واجهة المستخدم وبناء لوحة التحكم التفاعلية ثلاثية الأبعاد وتصميم هيكلة المنصة السحابية.",
     },
     {
       id: "02",
@@ -28,8 +30,10 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       roleEn: "ML & Remote Sensing Engineer",
       roleAr: "مهندس ذكاء اصطناعي واستشعار عن بعد",
       discipline: "Radar Inversion & GEE",
-      descEn: "Google Earth Engine pipeline, Water Cloud Model inversion, and satellite regression training.",
-      descAr: "إدارة خطوط معالجة GEE وتدريب نماذج الانحدار لتقدير الرطوبة وفك التشتت النباتي.",
+      descEn:
+        "Google Earth Engine pipeline, Water Cloud Model inversion, and satellite regression training.",
+      descAr:
+        "إدارة خطوط معالجة GEE وتدريب نماذج الانحدار لتقدير الرطوبة وفك التشتت النباتي.",
     },
     {
       id: "03",
@@ -38,8 +42,10 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       roleEn: "ML & Crop Phenology Engineer",
       roleAr: "مهندس تعلم آلة وتصنيف محاصيل",
       discipline: "Crop Phenology & SAR ML",
-      descEn: "Multi-temporal SAR/optical crop classification algorithms (wheat, corn, rice) and phenology tracking.",
-      descAr: "تطوير خوارزميات التصنيف الراداري لأنواع المحاصيل ومراقبة مراحل النمو الفينولوجية.",
+      descEn:
+        "Multi-temporal SAR/optical crop classification algorithms (wheat, corn, rice) and phenology tracking.",
+      descAr:
+        "تطوير خوارزميات التصنيف الراداري لأنواع المحاصيل ومراقبة مراحل النمو الفينولوجية.",
     },
     {
       id: "04",
@@ -48,8 +54,10 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       roleEn: "ML & Geospatial Data Engineer",
       roleAr: "مهندس بيانات جغرافية وذكاء اصطناعي",
       discipline: "Optical/SAR Data Fusion",
-      descEn: "Sentinel-1/2 data fusion, speckle filtering, radiometric calibration, and dataset pipelines.",
-      descAr: "معالجة وتحسين الصور الرادارية ودمج البيانات الطيفية وتنسيق مصفوفات البيانات الضخمة.",
+      descEn:
+        "Sentinel-1/2 data fusion, speckle filtering, radiometric calibration, and dataset pipelines.",
+      descAr:
+        "معالجة وتحسين الصور الرادارية ودمج البيانات الطيفية وتنسيق مصفوفات البيانات الضخمة.",
     },
     {
       id: "05",
@@ -58,8 +66,10 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       roleEn: "Cloud Systems & Infrastructure Engineer",
       roleAr: "مهندس نظم وحوسبة سحابية",
       discipline: "Cloud Microservices & GEE",
-      descEn: "GEE cloud authentication, microservices architecture, serverless APIs, and distributed database.",
-      descAr: "إدارة التكامل السحابي مع Google Earth Engine وبرمجة واجهات التطبيقات وقواعد البيانات.",
+      descEn:
+        "GEE cloud authentication, microservices architecture, serverless APIs, and distributed database.",
+      descAr:
+        "إدارة التكامل السحابي مع Google Earth Engine وبرمجة واجهات التطبيقات وقواعد البيانات.",
     },
     {
       id: "06",
@@ -68,8 +78,10 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       roleEn: "Cybersecurity & Comms Engineer",
       roleAr: "مهندس أمن سيبراني واتصالات",
       discipline: "Encrypted Telemetry & TLS",
-      descEn: "End-to-end telemetry encryption (TLS/DTLS), secure API gateways, and edge hardware integrity.",
-      descAr: "تأمين نقل البيانات وتشفير الاتصالات بين عقد إنترنت الأشياء والخوادم السحابية.",
+      descEn:
+        "End-to-end telemetry encryption (TLS/DTLS), secure API gateways, and edge hardware integrity.",
+      descAr:
+        "تأمين نقل البيانات وتشفير الاتصالات بين عقد إنترنت الأشياء والخوادم السحابية.",
     },
     {
       id: "07",
@@ -78,13 +90,18 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       roleEn: "IoT & Embedded Systems Engineer",
       roleAr: "مهندس أنظمة مدمجة وإنترنت الأشياء",
       discipline: "Custom PCB & FDR Probes",
-      descEn: "Custom PCB design, dielectric sensor calibration, low-power telemetry (LoRaWAN/Cellular) firmware.",
-      descAr: "تصميم الدوائر المطبوعة (PCB) لعقد الاستشعار ومعايرة المجسات الميدانية وكتابة الفيرموير.",
+      descEn:
+        "Custom PCB design, dielectric sensor calibration, low-power telemetry (LoRaWAN/Cellular) firmware.",
+      descAr:
+        "تصميم الدوائر المطبوعة (PCB) لعقد الاستشعار ومعايرة المجسات الميدانية وكتابة الفيرموير.",
     },
   ];
 
   return (
-    <section id="team" className="w-full max-w-[1600px] mx-auto px-4 sm:px-12 lg:px-16 py-14 sm:py-24 border-t border-teal/15">
+    <section
+      id="team"
+      className="w-full max-w-[1600px] mx-auto px-4 sm:px-12 lg:px-16 py-14 sm:py-24 border-t border-teal/15"
+    >
       {/* Editorial Fluid Header & Department Leadership Banner (Uncontained, Seamless) */}
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 sm:gap-8 pb-8 sm:pb-12 border-b border-teal/15">
         <div className="max-w-3xl space-y-3">
@@ -97,13 +114,19 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-pine font-sans">
-            {isAr ? "فريق مهندسي الاتصالات والإلكترونيات" : "Department of ECE Engineering Team"}
+            {isAr
+              ? "فريق مهندسي الاتصالات والإلكترونيات"
+              : "Department of ECE Engineering Team"}
           </h2>
 
           <p className="text-base sm:text-lg text-pine/80 font-sans leading-relaxed">
-            {isAr ? "مشروع التخرج مقدم تحت إشراف: " : "Graduation Project Under the Academic Supervision of: "}
+            {isAr
+              ? "مشروع التخرج مقدم تحت إشراف: "
+              : "Graduation Project Under the Academic Supervision of: "}
             <strong className="text-teal font-bold">
-              {isAr ? "أ.د. محمد نور الدين" : "Prof. Dr. Mohamed NourElDin"}
+              {isAr
+                ? "أ.د. محمد نور الدين شعبان"
+                : "Prof. Dr. Mohamed NourElDin shaaban"}
             </strong>
           </p>
         </div>
@@ -114,7 +137,11 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
           rel="noopener noreferrer"
           className="btn-primary inline-flex items-center gap-2.5 px-6 py-3.5 text-xs sm:text-sm font-medium tracking-wide uppercase shadow-sm self-start lg:self-end whitespace-nowrap cursor-pointer"
         >
-          <span>{isAr ? "الاطلاع على وثيقة المقترح الأكاديمي" : "View Official Proposal Document"}</span>
+          <span>
+            {isAr
+              ? "الاطلاع على وثيقة المقترح الأكاديمي"
+              : "View Official Proposal Document"}
+          </span>
           <ExternalLink className="w-4 h-4 text-lime" />
         </a>
       </div>
