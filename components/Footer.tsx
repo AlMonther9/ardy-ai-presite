@@ -68,7 +68,7 @@ export default function Footer({ lang }: FooterProps) {
             <br />
             Dept. of Electrical Communications & Electronics
             <br />
-            Supervised by Prof. Dr. Mohamed NourElDin shaaban
+            Supervised by Prof. Dr. Mohamed NourElDin Sha'ban
             <br />
             Graduation Project Class of 2026
           </p>

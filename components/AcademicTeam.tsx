@@ -17,71 +17,71 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
       nameAr: "المنذر عبد الحفيظ",
       roleEn: "Product Designer & Software Engineer",
       roleAr: "مهندس برمجيات وتصميم منتجات",
-      discipline: "System Architecture & 3D WebGL",
+      discipline: "Product Design & Software Engineering",
       descEn:
-        "Frontend UI/UX, interactive 3D WebGL diorama, platform system architecture, and API integration.",
+        "Product design, user experience architecture, core system engineering, and end-to-end platform development.",
       descAr:
-        "تطوير واجهة المستخدم وبناء لوحة التحكم التفاعلية ثلاثية الأبعاد وتصميم هيكلة المنصة السحابية.",
+        "تصميم المنتج وهندسة تجربة المستخدم وتطوير هيكلة المنظومة وهندسة البرمجيات المتكاملة.",
     },
     {
       id: "02",
-      nameEn: "Hassan Rada",
+      nameEn: "Hasan Rada",
       nameAr: "حسن رضا",
-      roleEn: "ML & Remote Sensing Engineer",
-      roleAr: "مهندس ذكاء اصطناعي واستشعار عن بعد",
-      discipline: "Radar Inversion & GEE",
+      roleEn: "AI & ML Engineer",
+      roleAr: "مهندس ذكاء اصطناعي وتعلم آلة",
+      discipline: "Artificial Intelligence & Machine Learning",
       descEn:
-        "Google Earth Engine pipeline, Water Cloud Model inversion, and satellite regression training.",
+        "Machine learning model development, data pipelines, and predictive AI engineering.",
       descAr:
-        "إدارة خطوط معالجة GEE وتدريب نماذج الانحدار لتقدير الرطوبة وفك التشتت النباتي.",
+        "تطوير نماذج تعلم الآلة وهندسة خطوط معالجة البيانات وبناء النماذج التنبؤية بالذكاء الاصطناعي.",
     },
     {
       id: "03",
-      nameEn: "Mohammed Samir",
-      nameAr: "محمد سمير",
-      roleEn: "ML & Crop Phenology Engineer",
-      roleAr: "مهندس تعلم آلة وتصنيف محاصيل",
-      discipline: "Crop Phenology & SAR ML",
+      nameEn: "Hamed Bassam",
+      nameAr: "حامد بسام",
+      roleEn: "AI & ML Engineer",
+      roleAr: "مهندس ذكاء اصطناعي وتعلم آلة",
+      discipline: "Artificial Intelligence & Machine Learning",
       descEn:
-        "Multi-temporal SAR/optical crop classification algorithms (wheat, corn, rice) and phenology tracking.",
+        "Machine learning model training, algorithm development, and AI data engineering pipelines.",
       descAr:
-        "تطوير خوارزميات التصنيف الراداري لأنواع المحاصيل ومراقبة مراحل النمو الفينولوجية.",
+        "تدريب نماذج تعلم الآلة وتطوير الخوارزميات وهندسة مصفوفات بيانات الذكاء الاصطناعي.",
     },
     {
       id: "04",
-      nameEn: "Hamed Bassam",
-      nameAr: "حامد بسام",
-      roleEn: "ML & Geospatial Data Engineer",
-      roleAr: "مهندس بيانات جغرافية وذكاء اصطناعي",
-      discipline: "Optical/SAR Data Fusion",
+      nameEn: "Mostafa Kamel",
+      nameAr: "مصطفى كامل",
+      roleEn: "AI & ML Engineer",
+      roleAr: "مهندس ذكاء اصطناعي وتعلم آلة",
+      discipline: "Artificial Intelligence & Machine Learning",
       descEn:
-        "Sentinel-1/2 data fusion, speckle filtering, radiometric calibration, and dataset pipelines.",
+        "Machine learning model architecture, algorithmic optimization, and predictive AI systems.",
       descAr:
-        "معالجة وتحسين الصور الرادارية ودمج البيانات الطيفية وتنسيق مصفوفات البيانات الضخمة.",
+        "بناء وتصميم معماريات تعلم الآلة وتحسين الخوارزميات ونظم الذكاء الاصطناعي التنبؤية.",
     },
     {
       id: "05",
-      nameEn: "Mostafa Kamel",
-      nameAr: "مصطفى كامل",
-      roleEn: "Cloud Systems & Infrastructure Engineer",
-      roleAr: "مهندس نظم وحوسبة سحابية",
-      discipline: "Cloud Microservices & GEE",
+      nameEn: "Mohammed Samir",
+      nameAr: "محمد سمير",
+      roleEn: "Cybersecurity Engineer",
+      roleAr: "مهندس أمن سيبراني",
+      discipline: "Cybersecurity & Information Security",
       descEn:
-        "GEE cloud authentication, microservices architecture, serverless APIs, and distributed database.",
+        "System security architecture, network vulnerability assessment, encrypted protocols, and data protection.",
       descAr:
-        "إدارة التكامل السحابي مع Google Earth Engine وبرمجة واجهات التطبيقات وقواعد البيانات.",
+        "أمن المعلومات وهندسة الحماية السيبرانية وتشفير بروتوكولات الاتصال وحماية الأنظمة وقواعد البيانات.",
     },
     {
       id: "06",
       nameEn: "Mohammed Sobhi",
       nameAr: "محمد صبحي",
-      roleEn: "Cybersecurity & Comms Engineer",
-      roleAr: "مهندس أمن سيبراني واتصالات",
-      discipline: "Encrypted Telemetry & TLS",
+      roleEn: "Cloud Engineer",
+      roleAr: "مهندس حوسبة سحابية",
+      discipline: "Cloud Systems & Infrastructure",
       descEn:
-        "End-to-end telemetry encryption (TLS/DTLS), secure API gateways, and edge hardware integrity.",
+        "Cloud infrastructure architecture, microservices deployment, distributed backend systems, and scalable server environments.",
       descAr:
-        "تأمين نقل البيانات وتشفير الاتصالات بين عقد إنترنت الأشياء والخوادم السحابية.",
+        "بناء وإدارة البنية التحتية السحابية ونشر الخدمات المصغرة وهندسة النظم الموزعة والسيرفرات.",
     },
     {
       id: "07",
@@ -126,7 +126,7 @@ export default function AcademicTeam({ lang }: AcademicTeamProps) {
             <strong className="text-teal font-bold">
               {isAr
                 ? "أ.د. محمد نور الدين شعبان"
-                : "Prof. Dr. Mohamed NourElDin shaaban"}
+                : "Prof. Dr. Mohamed NourElDin Sha'ban"}
             </strong>
           </p>
         </div>
