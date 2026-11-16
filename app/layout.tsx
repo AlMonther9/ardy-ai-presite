@@ -14,7 +14,8 @@ const cairo = Cairo({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ardy-ai.vercel.app";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://ardy-ai.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "ARDY-AI (أرضي)",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/ardy-logo.png",
         width: 1200,
         height: 630,
         alt: "ARDY-AI (أرضي) — Active Microwave Sensing for Precision Agriculture",
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
     title: "ARDY-AI (أرضي) — Active Microwave Sensing for Agriculture",
     description:
       "Engineering Egypt's first platform fusing Copernicus Sentinel-1 SAR data with localized IoT telemetry.",
-    images: ["/og-image.jpg"],
+    images: ["/ardy-logo.png"],
   },
 };
 
