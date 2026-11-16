@@ -14,8 +14,10 @@ const cairo = Cairo({
   display: "swap",
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ardy-ai.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ardy-ai.com"),
+  metadataBase: new URL(siteUrl),
   title: "أرضي | ARDY-AI — Active Microwave Sensing for Precision Agriculture",
   description:
     "Egypt's first scalable active microwave remote sensing and IoT telemetry system for Nile water conservation and precision agriculture. Department of Electrical Communications and Electronics Engineering, Al-Azhar University.",
@@ -41,8 +43,26 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ARDY-AI (أرضي) — Active Microwave Sensing for Agriculture",
     description:
+      "Engineering Egypt's first platform fusing Copernicus Sentinel-1 SAR data with localized IoT telemetry. Al-Azhar University ECE.",
+    url: siteUrl,
+    siteName: "ARDY-AI (أرضي)",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "ARDY-AI (أرضي) — Active Microwave Sensing for Precision Agriculture",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ARDY-AI (أرضي) — Active Microwave Sensing for Agriculture",
+    description:
       "Engineering Egypt's first platform fusing Copernicus Sentinel-1 SAR data with localized IoT telemetry.",
-    images: [{ url: "/brand-board.png", width: 1200, height: 630 }],
+    images: ["/og-image.jpg"],
   },
 };
 
